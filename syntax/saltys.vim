@@ -24,7 +24,8 @@ hi def link sltyComment     Comment
 hi def link sltyString      Constant
 hi def link sltySec        Keyword
 hi def link sltySub        Type
-highlight link sltyVal     Operator
+hi def link sltyKey     Statement
+hi def link sltyVal     Operator
 
 
 let b:current_syntax = "saltys"
