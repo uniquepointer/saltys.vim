@@ -8,9 +8,9 @@ if exists("b:current_syntax")
 endif
 
 syn keyword sltyTODO contained TODO FIXME XXX NOTE
-syn region sltyString start='"' end='"' contained
+syn region sltyString start=/\v"/ skip=/\v\\./ end=/\v"/
 syn match sltySec "{\w*}"
-syn match sltySub "[\w*]"
+syn match sltySub "\[\w*\]"
 syn match sltyComment "//.*$" contains=sltyTodo
 syn match sltyKey "^\s*\zs\I\i*\s*:"
 syntax match sltyVal "\v-"
@@ -21,7 +21,7 @@ syntax match sltyVal "\v-"
 "hi def link       Constant
 hi def link sltyTODO        Todo
 hi def link sltyComment     Comment
-hi def link sltyString      String
+hi def link sltyString      Constant
 hi def link sltySec        Keyword
 hi def link sltySub        Type
 highlight link sltyVal     Operator
