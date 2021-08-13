@@ -22,9 +22,9 @@ syntax match sltyVal "\v-"
 hi def link sltyTODO        Todo
 hi def link sltyComment     Comment
 hi def link sltyString      Constant
-hi def link sltySec        Keyword
-hi def link sltySub        Type
-hi def link sltyKey     Statement
+hi def link sltySec        Statement
+hi def link sltySub        Keyword
+hi def link sltyKey     Type
 hi def link sltyVal     Operator
 
 
