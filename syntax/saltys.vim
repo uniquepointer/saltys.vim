@@ -22,10 +22,10 @@ syntax match sltyVal "\v-"
 hi def link sltyTODO        Todo
 hi def link sltyComment     Comment
 hi def link sltyString      Constant
-hi def link sltySec        Statement
-hi def link sltySub        Keyword
-hi def link sltyKey     Type
-hi def link sltyVal     Operator
+hi def link sltySec         Statement
+hi def link sltySub         Keyword
+hi def link sltyKey         Type
+hi def link sltyVal         Operator
 
 
 let b:current_syntax = "saltys"
