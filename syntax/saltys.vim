@@ -1,6 +1,6 @@
 " Vim syntax file
-" Language: Robopill Dependency Handler
-" Maintainer: hyakuburns
+" Language: S.A.L.T.Y. files
+" Maintainer: uniquepointer
 " Latest Revision: ur mom
 
 if exists("b:current_syntax")
