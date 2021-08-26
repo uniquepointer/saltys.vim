@@ -12,7 +12,7 @@ syn region sltyString start=/\v"/ skip=/\v\\./ end=/\v"/
 syn match sltySec "{\w*}"
 syn match sltySub "\[\w*\]"
 syn match sltyComment "//.*$" contains=sltyTodo
-syn match sltyKey "^\s*\zs\I\i*\s*:"
+syn match sltyKey "@.*"
 syntax match sltyVal "\v-"
 
 "hi def link     Statement
